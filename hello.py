@@ -1,0 +1,2 @@
+print("Environment Setup Complete") 
+## Task 2: Virtual Environments & Dependency Isolation Objective: Prevent "Dependency Hell" by isolating project libraries. 1. Creation: Open the integrated terminal in VS Code ($Ctrl+`$) and create a virtual environment: o Windows: python -m venv venv o macOS/Linux: python3 -m venv venv 2. Activation: * Windows: .\venv\Scripts\activate o macOS/Linux: source venv/bin/activate 3. Why it matters: In your hello.py file, add a comment explaining in one sentence why we use venv instead of installing libraries globally. 
